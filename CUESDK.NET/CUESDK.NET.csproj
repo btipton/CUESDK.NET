@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>3.0.234.1</Version>
+    <Authors>AndrewBabbitt97</Authors>
+    <Company>Corsair</Company>
+    <Product>CUESDK</Product>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <PackageTags>Corsair;AndrewBabbitt97;CUE;ICUE;SDK</PackageTags>
+    <PackageId>CUESDK.NET</PackageId>
+    <Description>Wrapper for the native CUESDK provided by Corsair</Description>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <Copyright>Corsair Components Inc.</Copyright>
+    <PackageProjectUrl>https://github.com/AndrewBabbitt97/CUESDK.NET</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/AndrewBabbitt97/CUESDK.NET/master/nuget.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/AndrewBabbitt97/CUESDK.NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <SignAssembly>false</SignAssembly>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyName>CUESDK</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\License.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="runtimes\**" PackagePath="runtimes" />
+  </ItemGroup>
+
+</Project>
