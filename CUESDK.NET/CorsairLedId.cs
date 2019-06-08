@@ -1,4 +1,4 @@
-﻿namespace CUESDK.NET
+﻿namespace Corsair.CUE.SDK
 {
     /// <summary>
     /// Contains shared list of all leds on all devices (keyboard, mouse, mouse mat, headset, headset stand, DIY, memory module, cooler) and all models/physical layouts.

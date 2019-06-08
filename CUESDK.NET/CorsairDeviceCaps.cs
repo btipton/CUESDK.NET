@@ -1,4 +1,4 @@
-﻿namespace CUESDK.NET
+﻿namespace Corsair.CUE.SDK
 {
     /// <summary>
     /// Contains list of device capabilities. Current version of SDK only supports lighting and property lookup, but future versions may also support other capabilities.

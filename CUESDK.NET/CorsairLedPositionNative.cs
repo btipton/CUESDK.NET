@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace CUESDK.NET
+namespace Corsair.CUE.SDK
 {
     /// <summary>
     /// Contains led id and position of led rectangle. Most of the keys are rectangular. In case if key is not rectangular (like Enter in ISO/UK layout) it returns the smallest rectangle that fully contains the key.

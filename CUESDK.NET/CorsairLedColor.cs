@@ -1,4 +1,4 @@
-﻿namespace CUESDK.NET
+﻿namespace Corsair.CUE.SDK
 {
     /// <summary>
     /// Contains information about led and its color.

@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace CUESDK.NET
+namespace Corsair.CUE.SDK
 {
     /// <summary>
     /// Contains information about separate LED-device connected to the channel controlled by the DIY-device or cooler.

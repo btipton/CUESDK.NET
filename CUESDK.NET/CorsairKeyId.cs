@@ -1,4 +1,4 @@
-﻿namespace CUESDK.NET
+﻿namespace Corsair.CUE.SDK
 {
     /// <summary>
     /// Contains shared list of G and M keys (not all available keys!)

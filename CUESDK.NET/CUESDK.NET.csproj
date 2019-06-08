@@ -3,11 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>3.0.234.1</Version>
+    <Version>3.0.234.2</Version>
     <Authors>AndrewBabbitt97</Authors>
     <Company>Corsair</Company>
     <Product>CUESDK</Product>
-    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <PackageReleaseNotes>Fixed namespaces to be Corsair.CUE.SDK</PackageReleaseNotes>
     <PackageTags>Corsair;AndrewBabbitt97;CUE;ICUE;SDK</PackageTags>
     <PackageId>CUESDK.NET</PackageId>
     <Description>Wrapper for the native CUESDK provided by Corsair</Description>
@@ -22,6 +22,7 @@
     <SignAssembly>false</SignAssembly>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>CUESDK</AssemblyName>
+    <RootNamespace>Corsair.CUE.SDK</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

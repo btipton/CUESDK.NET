@@ -1,4 +1,4 @@
-﻿namespace CUESDK.NET
+﻿namespace Corsair.CUE.SDK
 {
     /// <summary>
     /// Contains list of the LED-devices which can be connected to the DIY-device or cooler.
