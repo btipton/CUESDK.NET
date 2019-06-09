@@ -1,5 +1,5 @@
 # CUESDK.NET
-This is a simple 1:1 wrapper for the corsair CUESDK. All function calls available in the native SDK are available in this wrapper.
+This is a simple 1:1 wrapper for the Corsair CUESDK. All function calls available in the native SDK are available in this wrapper.
 
 All classes and enums are under the Corsair.CuUE.SDK namespace and the functions available in the native SDK are in the CUESDK class.
 
