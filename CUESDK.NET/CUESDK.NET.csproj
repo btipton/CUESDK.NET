@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>3.0.234.2</Version>
+    <Version>3.0.234.3</Version>
     <Authors>AndrewBabbitt97</Authors>
     <Company>Corsair</Company>
     <Product>CUESDK</Product>
@@ -21,7 +21,7 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <SignAssembly>false</SignAssembly>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <AssemblyName>CUESDK</AssemblyName>
+    <AssemblyName>CUESDK.NET</AssemblyName>
     <RootNamespace>Corsair.CUE.SDK</RootNamespace>
   </PropertyGroup>
 
