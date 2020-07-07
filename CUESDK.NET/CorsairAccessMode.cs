@@ -1,4 +1,4 @@
-﻿namespace Corsair.CUE.SDK
+﻿namespace Spectrum.CUE.SDK
 {
     /// <summary>
     /// Contains list of available SDK access modes.

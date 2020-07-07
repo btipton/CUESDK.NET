@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.1;netcoreapp2.2;netcoreapp3.0;netcoreapp3.1;net452;net46;net462;net47;net471;net472;net48;</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>3.1</Version>
+    <Version>3.2</Version>
     <Authors>AndrewBabbitt97</Authors>
     <Company>Corsair</Company>
     <Product>Spectrum.CUESDK</Product>
@@ -22,7 +22,7 @@
     <SignAssembly>false</SignAssembly>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>Spectrum.CUESDK.NET</AssemblyName>
-    <RootNamespace>Corsair.CUE.SDK</RootNamespace>
+    <RootNamespace>Spectrum.CUE.SDK</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

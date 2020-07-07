@@ -1,4 +1,4 @@
-﻿namespace Corsair.CUE.SDK
+﻿namespace Spectrum.CUE.SDK
 {
     /// <summary>
     /// Contains information about led and its color.

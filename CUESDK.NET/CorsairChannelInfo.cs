@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace Corsair.CUE.SDK
+namespace Spectrum.CUE.SDK
 {
     /// <summary>
     /// Contains information about separate channel of the DIY-device or cooler.

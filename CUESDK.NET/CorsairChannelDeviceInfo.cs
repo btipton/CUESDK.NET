@@ -1,4 +1,4 @@
-﻿namespace Corsair.CUE.SDK
+﻿namespace Spectrum.CUE.SDK
 {
     /// <summary>
     /// Contains information about separate LED-device connected to the channel controlled by the DIY-device or cooler.

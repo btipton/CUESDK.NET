@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace Corsair.CUE.SDK
+namespace Spectrum.CUE.SDK
 {
     /// <summary>
     /// Contains number of leds and array with their positions.
