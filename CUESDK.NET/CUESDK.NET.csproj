@@ -3,13 +3,13 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.1;netcoreapp2.2;netcoreapp3.0;netcoreapp3.1;net452;net46;net462;net47;net471;net472;net48;</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>3.0.234.3</Version>
+    <Version>3.1</Version>
     <Authors>AndrewBabbitt97</Authors>
     <Company>Corsair</Company>
-    <Product>CUESDK</Product>
+    <Product>Spectrum.CUESDK</Product>
     <PackageReleaseNotes>Fixed namespaces to be Corsair.CUE.SDK</PackageReleaseNotes>
     <PackageTags>Corsair;AndrewBabbitt97;CUE;ICUE;SDK</PackageTags>
-    <PackageId>CUESDK.NET</PackageId>
+    <PackageId>Spectrum.CUESDK.NET</PackageId>
     <Description>Wrapper for the native CUESDK provided by Corsair</Description>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <Copyright>Corsair Components Inc.</Copyright>
@@ -21,7 +21,7 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <SignAssembly>false</SignAssembly>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <AssemblyName>CUESDK.NET</AssemblyName>
+    <AssemblyName>Spectrum.CUESDK.NET</AssemblyName>
     <RootNamespace>Corsair.CUE.SDK</RootNamespace>
   </PropertyGroup>
 
